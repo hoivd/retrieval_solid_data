@@ -2,7 +2,7 @@
 
 ## Mô tả
 
-Dự án này cho phép bạn truy vấn và xử lý dữ liệu từ các tệp raster. Các tệp raster được chuyển thành ma trận sparse DOK (Dictionary Of Keys) để tối ưu bộ nhớ và hiệu suất trong việc truy xuất và xử lý. Mô hình dữ liệu giúp lưu trữ và truy xuất thông tin địa lý dựa trên tọa độ (kinh độ, vĩ độ).
+Chương trình này cho phép bạn truy vấn và xử lý dữ liệu từ các tệp raster. Các tệp raster được chuyển thành ma trận sparse DOK (Dictionary Of Keys) để tối ưu bộ nhớ và hiệu suất trong việc truy xuất và xử lý. Mô hình dữ liệu giúp lưu trữ và truy xuất thông tin địa lý dựa trên tọa độ (kinh độ, vĩ độ).
 
 ## Các tệp trong dự án
 
