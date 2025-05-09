@@ -1,0 +1,1 @@
+{"name": "LandMask", "rows": 2160, "cols": 4320, "x_corner": -180.0, "y_corner": -90.0, "cellsize": 0.0833333333333333, "description": "Land mask indicating the fraction of 3 arc-second grid cells that fall into a 5-minute"}

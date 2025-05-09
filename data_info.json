@@ -1,0 +1,152 @@
+{
+    "GloAspectClE_5min": {
+        "name": "AspectClE",
+        "dtype": "float",
+        "description": "Aspect class for East-facing slopes, representing the direction of the slope gradient in the Eastward direction."
+    },
+    "GloAspectClN_5min": {
+        "name": "AspectClN",
+        "dtype": "float",
+        "description": "Aspect class for North-facing slopes, representing the direction of the slope gradient towards the north."
+    },
+    "GloAspectClS_5min": {
+        "name": "AspectClS",
+        "dtype": "float",
+        "description": "Aspect class for South-facing slopes, representing the direction of the slope gradient towards the south."
+    },
+    "GloAspectClU_5min": {
+        "name": "AspectClU",
+        "dtype": "float",
+        "description": "Aspect class for undefined slope aspects where the slope gradient is either undefined or less than a certain threshold."
+    },
+    "GloAspectClW_5min": {
+        "name": "AspectClW",
+        "dtype": "float",
+        "description": "Aspect class for West-facing slopes, representing the direction of the slope gradient towards the west."
+    },
+    "GloElev_5min": {
+        "name": "Elevation",
+        "dtype": "int",
+        "description": "Median elevation data for each grid cell, measured in meters above sea level."
+    },
+    "GloLand_5min": {
+        "name": "LandMask",
+        "dtype": "float",
+        "description": "Land mask indicating the fraction of 3 arc-second grid cells that fall into a 5-minute"
+    },
+    "GloSlopesCl1_5min": {
+        "name": "SlopesCl1",
+        "dtype": "float",
+        "description": "Percentage of grid cells with slope between 0% and 0.5%."
+    },
+    "GloSlopesCl2_5min": {
+        "name": "SlopesCl2",
+        "dtype": "float",
+        "description": "Percentage of grid cells with slope between 0.5% and 2%."
+    },
+    "GloSlopesCl3_5min": {
+        "name": "SlopesCl3",
+        "dtype": "float",
+        "description": "Percentage of grid cells with slope between 2% and 5%."
+    },
+    "GloSlopesCl4_5min": {
+        "name": "SlopesCl4",
+        "dtype": "float",
+        "description": "Percentage of grid cells with slope between 5% and 10%."
+    },
+    "GloSlopesCl5_5min": {
+        "name": "SlopesCl5",
+        "dtype": "float",
+        "description": "Percentage of grid cells with slope between 10% and 15%."
+    },
+    "GloSlopesCl6_5min": {
+        "name": "SlopesCl6",
+        "dtype": "float",
+        "description": "Percentage of grid cells with slope between 15% and 30%."
+    },
+    "GloSlopesCl7_5min": {
+        "name": "SlopesCl7",
+        "dtype": "float",
+        "description": "Percentage of grid cells with slope between 30% and 45%."
+    },
+    "GloSlopesCl8_5min": {
+        "name": "SlopesCl8",
+        "dtype": "float",
+        "description": "Percentage of grid cells with slope greater than 45%."
+    },
+    "CULTIR_2000": {
+        "name": "CULTIR",
+        "dtype": "float",
+        "description": "Data on rain-fed cultivated land for the year 2000, representing the percentage of the grid cell used for rainfed agriculture."
+    },
+    "CULTRF_2000": {
+        "name": "CULTRF",
+        "dtype": "float",
+        "description": "Data on irrigated cultivated land for the year 2000, representing the percentage of the grid cell used for irrigation-based agriculture."
+    },
+    "CULT_2000": {
+        "name": "CULT",
+        "dtype": "float",
+        "description": "Total cultivated land data for the year 2000, representing the total percentage of the grid cell used for agriculture."
+    },
+    "FOR_2000": {
+        "name": "FOR",
+        "dtype": "float",
+        "description": "Forest area data for the year 2000, representing the percentage of the grid cell covered by forests."
+    },
+    "GRS_2000": {
+        "name": "GRS",
+        "dtype": "float",
+        "description": "Grassland area data for the year 2000, representing the percentage of the grid cell covered by grasslands."
+    },
+    "NVG_2000": {
+        "name": "NVG",
+        "dtype": "float",
+        "description": "Non-vegetated area data for the year 2000, showing the percentage of the grid cell that is not covered by vegetation."
+    },
+    "URB_2000": {
+        "name": "URB",
+        "dtype": "float",
+        "description": "Urban area data for the year 2000, representing the percentage of the grid cell that is urbanized."
+    },
+    "WAT_2000": {
+        "name": "WAT",
+        "dtype": "float",
+        "description": "Water body area data for the year 2000, showing the percentage of the grid cell covered by water bodies."
+    },
+    "sq1": {
+        "name": "sq1",
+        "dtype": "int",
+        "description": "A square grid class for classification purposes, related to nutrient availability."
+    },
+    "sq2": {
+        "name": "sq2",
+        "dtype": "int",
+        "description": "A square grid class for classification purposes, related to nutrient retention capacity."
+    },
+    "sq3": {
+        "name": "sq3",
+        "dtype": "int",
+        "description": "A square grid class for classification purposes, related to rooting conditions."
+    },
+    "sq4": {
+        "name": "sq4",
+        "dtype": "int",
+        "description": "A square grid class for classification purposes, related to oxygen availability to roots."
+    },
+    "sq5": {
+        "name": "sq5",
+        "dtype": "int",
+        "description": "A square grid class for classification purposes, related to excess salts."
+    },
+    "sq6": {
+        "name": "sq6",
+        "dtype": "int",
+        "description": "A square grid class for classification purposes, related to toxicity."
+    },
+    "sq7": {
+        "name": "sq7",
+        "dtype": "int",
+        "description": "A square grid class for classification purposes, related to workability."
+    }
+}
