@@ -28,27 +28,39 @@ Chương trình này cho phép bạn truy vấn và xử lý dữ liệu từ c�
 
 ### Chạy ứng dụng
 
-1. Để truy vấn dữ liệu, bạn cần chạy `retrieval_app.py` và nhập vào các tọa độ kinh độ và vĩ độ. Sau đó, bạn có thể truy xuất dữ liệu từ file dok_matrix.
+1. Để truy vấn dữ liệu, bạn cần chạy `retrieval_app.py` và nhập vào các tọa độ kinh độ và vĩ độ. Sau đó, bạn có thể truy xuất dữ liệu từ file raster.
 
     ```bash
     python retrieval_app.py
     ```
 
-2. Trong ứng dụng, bạn có thể sử dụng hàm `get_data(lon, lat)` để lấy dữ liệu từ vị trí mà bạn cung cấp.
+2. Trong ứng dụng, bạn có thể sử dụng hàm `get_data(lon, lat)` để lấy dữ liệu từ vị trí mà bạn cung cấp. Lưu ý rằng bạn cần phải khởi tạo một đối tượng của lớp `RetrievalSolidData` trước khi gọi phương thức `get_data()`.
 
     ```python
-    from retrieval_app import get_data
+    from retrieval_app import RetrievalSolidData
     
+    # Khởi tạo đối tượng RetrievalSolidData
+    retrieval_data = RetrievalSolidData()
+
     # Nhập tọa độ kinh độ và vĩ độ
-    data = get_data(lon=105.8542, lat=21.0285)
+    lon = 105.8542  # Kinh độ
+    lat = 21.0285   # Vĩ độ
+
+    # Gọi phương thức get_data để lấy dữ liệu
+    data = retrieval_data.get_data(lon, lat)
+
+    # In dữ liệu lấy được
     print(data)
     ```
 
 3. Hàm `get_data_info()` sẽ cung cấp thông tin chi tiết về các cột dữ liệu trong file raster.
 
     ```python
-    from retrieval_app import get_data_info
+    from retrieval_app import RetrievalSolidData
     
+    # Khởi tạo đối tượng RetrievalSolidData
+    retrieval_data = RetrievalSolidData()
+
     # Lấy thông tin cột dữ liệu
     info = get_data_info()
     print(info)
