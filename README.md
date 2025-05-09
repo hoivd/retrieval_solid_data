@@ -1,4 +1,4 @@
-# Dự án Xử Lý Dữ Liệu Raster
+# Xử Lý Dữ Liệu Raster
 
 ## Mô tả
 
